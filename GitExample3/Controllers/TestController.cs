@@ -8,5 +8,10 @@ namespace GitExample3.Controllers
         {
             return Content("Welcome....");
         }
+
+        public IActionResult HomePage()
+        {
+            return Content("Home Page - Version1");
+        }
     }
 }
