@@ -16,7 +16,7 @@ namespace GitExample3.Controllers
 
         public IActionResult Careers()
         {
-            return Content("Careers Page - Version2");
+            return Content("Careers Page - updated in central repo");
         }
 
 
