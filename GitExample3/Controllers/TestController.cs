@@ -11,7 +11,14 @@ namespace GitExample3.Controllers
 
         public IActionResult HomePage()
         {
-            return Content("Home Page - Version1");
+            return Content("Home Page - Version3");
         }
+
+        public IActionResult Careers()
+        {
+            return Content("Careers Page - Version2");
+        }
+
+
     }
 }
