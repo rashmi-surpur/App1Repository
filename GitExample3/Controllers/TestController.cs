@@ -19,6 +19,11 @@ namespace GitExample3.Controllers
             return Content("Careers Page - updated in central repo");
         }
 
+        public IActionResult Print()
+        {
+            return Content("print Page - updated in central repo");
+        }
+
 
     }
 }
