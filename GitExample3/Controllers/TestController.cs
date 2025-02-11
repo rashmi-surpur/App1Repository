@@ -20,5 +20,10 @@ namespace GitExample3.Controllers
         }
 
 
+        public IActionResult DisplayAll()
+        {
+            return Content("DisplayAll Page ");
+        }
+
     }
 }
